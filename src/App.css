@@ -1,0 +1,75 @@
+.container-fluid {
+    padding: 0;
+
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: inline-block;
+    text-align: center;
+    background-color: lightblue;
+    width: 100%;
+    margin-left:0;
+
+}
+.title {
+    position: relative;
+    right: 10px;
+    font-size: 300%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+input {
+    width:50%;
+    border: solid;
+}
+input[type="text"]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#add-item-button {
+    vertical-align: middle;
+    font-size: 150%;
+    margin-left: 1%;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+}
+.removeButton {
+    z-index: 12;
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    padding: 11px;
+    cursor: pointer;
+
+}
+.removeButton:hover {
+    background-color: red;
+}
+.fa-trash {
+    font-size: 150%;
+}
+.active {
+    text-decoration: line-through !important;
+} 
+
+.list-group {
+    cursor: pointer;
+
+}
+.list-group-item {
+    font-size: 19px;
+
+}
+.sort {
+    border: solid;
+    background-color: pink;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:pointer;
+}

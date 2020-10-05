@@ -1,0 +1,59 @@
+.container-fluid {
+    padding: 0 !important;
+}
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: inline-block;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 10px;
+
+}
+.title {
+    position: relative;
+    right: 10px;
+    font-size: 300%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input {
+    width:50%;
+    border: solid;
+}
+input[type="text"]{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#add-item-button {
+    line-height: inherit;
+    font-size: 150%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.removeButton {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    padding: 11px;
+    cursor: pointer;
+
+}
+.removeButton:hover {
+    background-color: red;
+}
+.fa-trash {
+    font-size: 150%;
+}
+.active {
+    text-decoration: line-through !important;
+} 
+
+.list-group {
+    cursor: pointer;
+}
+.list-group-item {
+    font-size: 19px;
+
+}
